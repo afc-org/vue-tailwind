@@ -1,0 +1,38 @@
+{
+  "name": "@tailwindjs/vue-tailwindjs",
+  "version": "0.1.0",
+  "description": "Dynamic components for Tailwindcss and VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tailwindjs/vue-tailwindjs.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "tailwind",
+    "tailwindcss",
+    "package",
+    "components",
+    "framework",
+    "tailwind-framework",
+    "vue-framework",
+    "vue-tailwind",
+    "vue-tailwindcss",
+    "vue-tailwindjs",
+    "vuejs-framework",
+    "vuejs-tailwind",
+    "vuejs-tailwindcss",
+    "vuejs-tailwindjs",
+    "tailwindjs"
+  ],
+  "author": "@tailwindjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tailwindjs/vue-tailwindjs/issues"
+  },
+  "homepage": "https://github.com/tailwindjs/vue-tailwindjs#readme"
+}
