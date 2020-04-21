@@ -1,12 +1,12 @@
-# Tailwindjs/vue-tailwindjs
+# @afc/vue-tailwind
 
-![version](https://img.shields.io/badge/version-0.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/tailwindjs/vue-tailwindjs/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/tailwindjs/vue-tailwindjs.svg)</a> <a href="https://github.com/tailwindjs/vue-tailwindjs?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/tailwindjs/vue-tailwindjs.svg)</a>
+![version](https://img.shields.io/badge/version-0.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/afc-org/vue-tailwind/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/@afc/vue-tailwind.svg)</a> <a href="https://github.com/afc-org/vue-tailwind?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/@afc/vue-tailwind.svg)</a>
 
-![tailwindjs/vue-tailwindjs]({{--logo-image-here--}})
+<div align="center"><img src="./assets/logos/vuejs-tailwind-logo.png" alt="@afc/vue-tailwind" width="300"/></div>
 
 ### A dynamic plugin extension for TailwindCSS.
 
-Tailwindjs/vue-tailwindjs is Free and Open Source. It does not change or add any CSS to the already one from TailwindCSS, It comes with code written with VueJS as an extension to TailwindCSS for you to have dynamic components inside your app as well.
+**@afc/vue-tailwind** is Free and Open Source. It does not change or add any CSS to the already one from TailwindCSS, It comes with code written with VueJS as an extension to TailwindCSS for you to have dynamic components inside your app as well.
 
 ### Components
 
@@ -28,9 +28,9 @@ We plan on implementing more, in the weeks to come.
 
 ## Versions
 
-|Angular|JavaScript|React|VueJS|Svelte|
+|Angular|JavaScript|React|Svelte|VueJS|
 | --- | --- | --- | --- | --- |
-| <a href="https://github.com/tailwindjs/angular-tailwindjs" target="_blank">Check Angular</a>  | <a href="https://github.com/tailwindjs/tailwindjs" target="_blank">Check JavaScript</a>  | <a href="https://github.com/tailwindjs/react-tailwindjs" target="_blank">Check React</a>  | <a href="https://github.com/tailwindjs/vue-tailwindjs" target="_blank">Check VueJS</a>  | <a href="https://github.com/tailwindjs/svelte-tailwindjs" target="_blank">Check Svelte</a>  |
+| <a href="https://github.com/afc-org/angular-tailwind" target="_blank">![Check Angular](./assets/logos/angular-tailwind-logo.png)</a>  | <a href="https://github.com/afc-org/js-tailwind" target="_blank">![Check JavaScript](./assets/logos/javascript-tailwind-logo.png)</a>  | <a href="https://github.com/afc-org/react-tailwind" target="_blank">![Check React](./assets/logos/reactjs-tailwind-logo.png)</a>  | <a href="https://github.com/afc-org/svelte-tailwind" target="_blank">![Check Svelte](./assets/logos/svelte-tailwind-logo.png)</a>    | <a href="https://github.com/afc-org/vue-tailwind" target="_blank">![Check VueJS](./assets/logos/vuejs-tailwind-logo.png)</a>|
 
 ## Components
 
@@ -46,12 +46,12 @@ We plan on implementing more, in the weeks to come.
 ## Quick start
 
 ```
-npm i -E @tailwindjs/vue-tailwindjs
+npm i -E @afc/vue-tailwind
 ```
 
 ## Documentation - VueJS
 
-After you have installed `@tailwindjs/vue-tailwindjs` into your project, you can import and use our components like so:
+After you have installed `@afc/vue-tailwind` into your project, you can import and use our components like so:
 
 ```
 <template>
@@ -60,9 +60,9 @@ After you have installed `@tailwindjs/vue-tailwindjs` into your project, you can
   </div>
 </template>
 <script>
-  import { TwAlert } from "@tailwindjs/vue-tailwindjs";
+  import { TwAlert } from "@afc/vue-tailwind";
   // or direct import
-  // import TwAlert from "@tailwindjs/vue-tailwindjs/TwAlert";
+  // import TwAlert from "@afc/vue-tailwind/TwAlert";
   export default {
     name: "YourComponentName"
   }
@@ -87,7 +87,7 @@ import "path/to/your/tailwindcss/compiled/styles.css";
 
 ## Dependencies - VueJS
 
-**@tailwindjs/react-tailwindjs** to properly work needs the following dependencies:
+**@afc/vue-tailwind** to properly work needs the following dependencies:
 - **@popperjs/core**@2.2.1
 - **vue**@2.6.11
 ```
@@ -100,31 +100,30 @@ At present, we officially aim to support the last two versions of the following 
 
 | Chrome | Firefox | Edge | Safari | Opera |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="https://github.com/tailwindjs/vue-tailwindjs/blob/master/assets/logos/chrome-logo.png?raw=true" width="64" height="64"> | <img src="https://github.com/tailwindjs/vue-tailwindjs/blob/master/assets/logos/firefox-logo.png?raw=true" width="64" height="64"> | <img src="https://github.com/tailwindjs/vue-tailwindjs/blob/master/assets/logos/edge-logo.png?raw=true" width="64" height="64"> | <img src="https://github.com/tailwindjs/vue-tailwindjs/blob/master/assets/logos/safari-logo.png?raw=true" width="64" height="64"> | <img src="https://github.com/tailwindjs/vue-tailwindjs/blob/master/assets/logos/opera-logo.png?raw=true" width="64" height="64"> |
+| <img src="./assets/logos/chrome-logo.png" width="64" height="64"> | <img src="./assets/logos/firefox-logo.png" width="64" height="64"> | <img src="./assets/logos/edge-logo.png" width="64" height="64"> | <img src="./assets/logos/safari-logo.png" width="64" height="64"> | <img src="./assets/logos/opera-logo.png" width="64" height="64"> |
 
 ## Reporting Issues
 
 We use GitHub Issues as the official bug tracker for the Angular Landing Page. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the @tailwindjs/vue-tailwindjs.
+1. Make sure that you are using the latest version of the @afc/vue-tailwind.
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
 ## Contributors
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/tailwindjs/vue-tailwindjs/contributors"><img src="https://opencollective.com/tailwindjs/contributors.svg?width=890&button=false" /></a>
 
 ## Licensing
 
-- Copyright 2020 Tailwindjs/vue-tailwindjs
+- Copyright 2020 @afc/vue-tailwind
 
-- Licensed under <a href="https://github.com/tailwindjs/vue-tailwindjs/blob/master/LICENSE.md" target="_blank">MIT</a>
+- Licensed under <a href="https://github.com/afc-org/vue-tailwind/blob/master/LICENSE.md" target="_blank">MIT</a>
 
 ## Resources
-- Tailwindjs projects: <a href="https://github.com/tailwindjs/" target="_blank">https://github.com/tailwindjs/</a>
-- JavaScript & TailwindCSS: <a href="https://github.com/tailwindjs/tailwindjs" target="_blank">https://github.com/tailwindjs/tailwindjs</a>
-- Angular & TailwindCSS: <a href="https://github.com/tailwindjs/angular-tailwindjs" target="_blank">https://github.com/tailwindjs/angular-tailwindjs</a>
-- React & TailwindCSS: <a href="https://github.com/tailwindjs/angular-tailwindjs" target="_blank">https://github.com/tailwindjs/react-tailwindjs</a>
-- Svelte & TailwindCSS: <a href="https://github.com/tailwindjs/angular-tailwindjs" target="_blank">https://github.com/tailwindjs/svelte-tailwindjs</a>
-- VueJS & TailwindCSS:  <a href="https://github.com/tailwindjs/angular-tailwindjs" target="_blank">https://github.com/tailwindjs/vue-tailwindjs</a>
-- Issues: <a href="https://github.com/tailwindjs/vue-tailwindjs/issues" target="_blank">Github Issues Page</a>
+- AFC-ORG projects: <a href="https://github.com/afc-org/" target="_blank">https://github.com/afc-org/</a>
+- JavaScript & TailwindCSS: <a href="https://github.com/afc-org/js-tailwind" target="_blank">https://github.com/afc-org/js-tailwind</a>
+- Angular & TailwindCSS: <a href="https://github.com/afc-org/angular-tailwind" target="_blank">https://github.com/afc-org/angular-tailwind</a>
+- React & TailwindCSS: <a href="https://github.com/afc-org/angular-tailwind" target="_blank">https://github.com/afc-org/react-tailwind</a>
+- Svelte & TailwindCSS: <a href="https://github.com/afc-org/angular-tailwind" target="_blank">https://github.com/afc-org/svelte-tailwind</a>
+- VueJS & TailwindCSS:  <a href="https://github.com/afc-org/angular-tailwind" target="_blank">https://github.com/afc-org/vue-tailwind</a>
+- Issues: <a href="https://github.com/afc-org/vue-tailwind/issues" target="_blank">Github Issues Page</a>

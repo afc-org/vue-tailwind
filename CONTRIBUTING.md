@@ -6,7 +6,7 @@ Even if you have little to no experience with Tailwindcss, JavaScript or VueJS, 
 
 ## Reporting issues & features requests
 
-If you notice any bugs in the code, see some code that can be improved, or have features you would like to be added, please create a [bug report](https://github.com/tailwindjs/vue-tailwindjs/issues/new?template=bug-report---.md) or a [feature request](https://github.com/tailwindjs/vue-tailwindjs/issues/new?template=feature-request---.md)!
+If you notice any bugs in the code, see some code that can be improved, or have features you would like to be added, please create a [bug report](https://github.com/afc-org/vue-tailwind/issues/new?template=bug-report---.md) or a [feature request](https://github.com/afc-org/vue-tailwind/issues/new?template=feature-request---.md)!
 
 If you want to open a PR that fixes a bug or adds a feature, then we can't thank you enough!
 
@@ -16,7 +16,7 @@ Please feel free to take on any issue that's currently open. Just send a comment
 
 ## Submitting a pull request
 
-Tailwindjs/vue-tailwindjs is an open-source project, so pull requests are always welcomed (_always_ ❤️).
+**@afc/vue-tailwind** is an open-source project, so pull requests are always welcomed (_always_ ❤️).
 What we ask you, is that before working on a large change, it is best to open an issue first to discuss it with the maintainers or if an issue was already opened, comment your intention of opening up a PR.
 
 When in doubt, keep your pull requests small. To give a PR the best chance of getting accepted, don't bundle more than one feature or bug fix per pull request. It's always best to create two smaller PRs than one big one.
@@ -78,5 +78,5 @@ Closes #12
 ## Branches explained
 
 As you can see we have multiple branches:
- - **master**: This branch stores the latest stable version of tailwindjs/vue-tailwindjs.
- - **dev-master**: This is the **development** branch of tailwindjs/vue-tailwindjs, and this is where everything is happening before releasing on master
+ - **master**: This branch stores the latest stable version of @afc/vue-tailwind.
+ - **dev-master**: This is the **development** branch of @afc/vue-tailwind, and this is where everything is happening before releasing on master
