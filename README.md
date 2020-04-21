@@ -1,12 +1,12 @@
-# @afc/vue-tailwind
+# @afc-org/vue-tailwind
 
-![version](https://img.shields.io/badge/version-0.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/afc-org/vue-tailwind/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/@afc/vue-tailwind.svg)</a> <a href="https://github.com/afc-org/vue-tailwind?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/@afc/vue-tailwind.svg)</a>
+![version](https://img.shields.io/badge/version-0.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/afc-org/vue-tailwind/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/@afc-org/vue-tailwind.svg)</a> <a href="https://github.com/afc-org/vue-tailwind?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/@afc-org/vue-tailwind.svg)</a>
 
-<div align="center"><img src="./assets/logos/vuejs-tailwind-logo.png" alt="@afc/vue-tailwind" width="300"/></div>
+<div align="center"><img src="./assets/logos/vuejs-tailwind-logo.png" alt="@afc-org/vue-tailwind" width="300"/></div>
 
 ### A dynamic plugin extension for TailwindCSS.
 
-**@afc/vue-tailwind** is Free and Open Source. It does not change or add any CSS to the already one from TailwindCSS, It comes with code written with VueJS as an extension to TailwindCSS for you to have dynamic components inside your app as well.
+**@afc-org/vue-tailwind** is Free and Open Source. It does not change or add any CSS to the already one from TailwindCSS, It comes with code written with VueJS as an extension to TailwindCSS for you to have dynamic components inside your app as well.
 
 ### Components
 
@@ -46,12 +46,12 @@ We plan on implementing more, in the weeks to come.
 ## Quick start
 
 ```
-npm i -E @afc/vue-tailwind
+npm i -E @afc-org/vue-tailwind
 ```
 
 ## Documentation - VueJS
 
-After you have installed `@afc/vue-tailwind` into your project, you can import and use our components like so:
+After you have installed `@afc-org/vue-tailwind` into your project, you can import and use our components like so:
 
 ```
 <template>
@@ -60,9 +60,9 @@ After you have installed `@afc/vue-tailwind` into your project, you can import a
   </div>
 </template>
 <script>
-  import { TwAlert } from "@afc/vue-tailwind";
+  import { TwAlert } from "@afc-org/vue-tailwind";
   // or direct import
-  // import TwAlert from "@afc/vue-tailwind/TwAlert";
+  // import TwAlert from "@afc-org/vue-tailwind/TwAlert";
   export default {
     name: "YourComponentName"
   }
@@ -87,7 +87,7 @@ import "path/to/your/tailwindcss/compiled/styles.css";
 
 ## Dependencies - VueJS
 
-**@afc/vue-tailwind** to properly work needs the following dependencies:
+**@afc-org/vue-tailwind** to properly work needs the following dependencies:
 - **@popperjs/core**@2.2.1
 - **vue**@2.6.11
 ```
@@ -106,7 +106,7 @@ At present, we officially aim to support the last two versions of the following 
 
 We use GitHub Issues as the official bug tracker for the Angular Landing Page. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the @afc/vue-tailwind.
+1. Make sure that you are using the latest version of the @afc-org/vue-tailwind.
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
@@ -115,7 +115,7 @@ This project exists thanks to all the people who contribute. [[Contribute](CONTR
 
 ## Licensing
 
-- Copyright 2020 @afc/vue-tailwind
+- Copyright 2020 @afc-org/vue-tailwind
 
 - Licensed under <a href="https://github.com/afc-org/vue-tailwind/blob/master/LICENSE.md" target="_blank">MIT</a>
 
