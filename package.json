@@ -1,5 +1,5 @@
 {
-  "name": "@tailwindjs/vue-tailwindjs",
+  "name": "@afc/vue-tailwind",
   "version": "0.1.0",
   "description": "Dynamic components for Tailwindcss and VueJS",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tailwindjs/vue-tailwindjs.git"
+    "url": "git+https://github.com/afc-org/vue-tailwind.git"
   },
   "keywords": [
     "vue",
@@ -22,17 +22,21 @@
     "vue-framework",
     "vue-tailwind",
     "vue-tailwindcss",
-    "vue-tailwindjs",
+    "vue-tailwind",
     "vuejs-framework",
     "vuejs-tailwind",
     "vuejs-tailwindcss",
-    "vuejs-tailwindjs",
-    "tailwindjs"
+    "vuejs-tailwind",
+    "vue-tailwindjs",
+    "tailwindjs",
+    "afc-org",
+    "afc",
+    "@afc"
   ],
-  "author": "@tailwindjs",
+  "author": "afc-org",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tailwindjs/vue-tailwindjs/issues"
+    "url": "https://github.com/afc-org/vue-tailwind/issues"
   },
-  "homepage": "https://github.com/tailwindjs/vue-tailwindjs#readme"
+  "homepage": "https://github.com/afc-org/vue-tailwind#readme"
 }
